@@ -1,11 +1,17 @@
 html {
-  background: #1a1a1a;
+  /*background: #1a1a1a;*/
+  background: rgb(69,152,69);
   color: #e5e5e5;
   text-align: center;
   font-family: "Roboto", Helvetica, sans-serif;
-
 }
 
+brder{
+  text-align:right;
+  position: absolute;
+  padding-top:5px;
+  float:right;
+}
 
 .button {
     outline: none;
@@ -13,17 +19,16 @@ html {
     border: none;
     color: white;
     padding: 9px 32px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: "Roboto Condensed", Helvetica, sans-serif;
-    
+
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 .button1 {
     background-color: white;/*#4CAF50;  Green */
     border: none;
@@ -185,4 +190,3 @@ section{
 .distribution-map .map-point:hover{
   opacity: 0.7;
 }
-

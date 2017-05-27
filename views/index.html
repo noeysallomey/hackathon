@@ -1,9 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hackathon</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hackathon</title>
+		<link rel="stylesheet" href="styles.css">
+		<style type="text/css">
+		body{
+			background-image: url("images/oble.jpg");
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: left top;
+		}
+		@font-face {
+			font-family: downcome;
+			src: url("fonts/Playtime.otf");
+			font-weight:400;
+		}
+		h1{
+			/*background-color: rgba(194, 194, 194, 0.5);*/
+			background-size: cover;
+			//color: rgba(255,255,255, 0.9);
+			color: rgba(0,0,0, 0.9);
+			font-family: monospace;
+			font-size: 50px;
+			justify-content: center;
+			text-align: right;
+			font-family: downcome;
+			padding-right: 50px;
+		}
+		h2{
+
+		}
+		r{
+			color:white;
+		}
+		.container:hover .image {
+		  opacity: 0.3;
+		}
+		hr{
+			margin-right: 200px;
+			margin-left: 200px;
+		}
+		h4{
+			text-align: right;
+			padding-right: 100px;
+
+		}
+		/*.stats{
+			text-align: center;
+			vertical-align: middle;
+			line-height: 20px;
+			font-family: PokeFont, Century Gothic, Arial, sans-serif;
+		}*/
+	</style>
 </head>
-<body>
-<h1>THIS IS THE HOME PAGE</h1>
-</body>
+
+	<body>
+		<h1><r>Hello</r>, and welcome to the <r> VOICEUP </r>website!    </h1>
+		<h1>Here, you can freely <r>voice out your concerns</r> regarding</h1>
+		<h1>the school environment, such as broken armchairs, </h1>
+		<h1>toilets that won't flush, etc. Just sign in with </h1>
+		<h1>your <r>Student ID</r>, register a <r>"Concern"</r>, and </h1>
+		<h1><r>help make UP a better place today!<r></h1>
+
+			<form action="/login" method="get">
+				<h4>
+					<input type="image" action="/login" method="get" src="images/arrow.png" width="150" height="133">
+				</h4>
+			</form>
+
+	</body>
 </html>

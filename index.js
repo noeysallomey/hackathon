@@ -5,20 +5,17 @@ var performQuery = require('./database');
 
 var app = express();
 
-app.set('views', './views');
-
 app.engine('html', consolidate.nunjucks);
-app.use('/static', express.static('./static'));
+
+app.set('views', './views');
+// app.use('/static', express.static('./static'));
+app.use(express.static('./static'));
 app.use(bodyparser.urlencoded());
 
 app.get('/', function(request, respond){
 	var name = request.query.username;
 	console.log(name);
-
-	respond.render('index.html', {
-		username: name
-	});
-
+	respond.render('index.html');
 });
 
 app.get('/profile', function(request, respond){
