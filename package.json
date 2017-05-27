@@ -1,0 +1,29 @@
+{
+  "name": "voiceup",
+  "version": "1.0.0",
+  "description": "an app that lets students of up cebu voice out their concerns about the facilities of up cebu\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001bUP\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001bUP",
+  "main": "\u001b[C",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.3",
+    "json": "^9.0.6",
+    "nodemon": "^1.11.0",
+    "nunjucks": "^3.0.1",
+    "pg": "^6.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeysallomey/hackathon.git"
+  },
+  "author": "Noel Salloman, Pete Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noeysallomey/hackathon/issues"
+  },
+  "homepage": "https://github.com/noeysallomey/hackathon#readme"
+}
