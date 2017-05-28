@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../static/styles.css">
+		<script type="text/javascript" src="../login.js"></script>
+		<style type="text/css">
+			body{
+				background-image: url("images/oble.jpg");
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: left top;
+			}
+			h5{
+				justify-content: center;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+
+	<body>
+					<div class="login-page">
+						<h5>
+									    <form class = "form" action="/postconcern" method="post">
+														<a>Location: AS Lobby</a><br><br><br>
+														<input id = "bldng" name = "bldng" type="hidden" value="aslobby">
+
+														<a>Building Floor:</a>
+															<select name="Floors" id = bldngflr>
+														    <option id = "bldngflr" name = "bldngflr" value="1">1</option>
+														  </select>
+
+														<br><br><br>
+
+														<a>Date:</a>
+														<input id = "date" type="date" name="date">
+
+														<br><br>
+
+														<input id = "concernee" name= "concernee" type="text" placeholder="Student Number/Name"/><br>
+
+											      <input id = "specLoc" name= "specLoc" type="text" placeholder="Please further specify location"/><br>
+
+											      <input id = "concernMainMessagetype"  name= "concernMainMessagetype" type="text" placeholder="Please state your concern here."/><br>
+
+											      <button>Post Concern</button>
+									    </form>
+							</h5>
+					</div>
+	</body>
+
+</html>
